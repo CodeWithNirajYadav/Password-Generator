@@ -55,7 +55,14 @@ export default function App() {
   };
 
   return (
-    <div className="app">
+   <div
+  className="app"
+  style={{
+    backgroundImage: "url('/image.jpeg')",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+  }}
+>
 
       <div className="card">
 
